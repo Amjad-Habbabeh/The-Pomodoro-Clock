@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Righteous&display=swap');
+
+@font-face {
+  font-family: 'digit-7';
+  src: url('./font/digital-7.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(31, 85, 92);
+  /* font-family: 'Orbitron', sans-serif; */
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 80vh;
+  width: 50vw;
+  margin: 5vh auto;
+}
+h2,
+h1,
+h3 {
+  text-align: center;
+  color: #fff;
+}
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+}
+.chooser {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-self: center;
+  justify-content: space-between;
+}
+h3 {
+  width: 4vw;
+  line-height: 3rem;
+}
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+  border-radius: 4rem;
+  border: 0.5rem solid rgb(19, 54, 58);
+  width: 70%;
+}
+.mid-section h1 {
+  font-family: 'digit-7', 'Orbitron', sans-serif;
+  font-size: 7rem;
+}
+button {
+  width: 4vw;
+  background-color: transparent;
+  height: 6vh;
+  border-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.bottom-section {
+  display: flex;
+  width: 8vw;
+  justify-content: space-between;
+}
+.fa-stop {
+  font-size: 1em;
+  color: #fff;
+}
